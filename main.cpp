@@ -14,7 +14,7 @@ int main() {                                //  +-------------------------------
                                             //                      | 
     AppendableArray arr(test, TESTSIZE);    //                      |    create appendable arrays.
     AppendableArray arr2(test, TESTSIZE);   //                      |     
-    arr.display();  //  ----------------------  array[ 1, 2, 3, 4 ]	|    
+    arr.display();  //  ----------------------  array[ 1, 2, 3, 4 ] |    
     arr.append(40);                         //                      |    adds 40 to the back
     arr.display();  //  ----------------------  array[ 1, 2, 3, 4, 40 ]	
     arr.append(arr2);                       //                      |    Appends two appendable arrays
