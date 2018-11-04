@@ -24,7 +24,9 @@ int main() {                                //  +-------------------------------
     int len = arr.len();                    //                           Get length of array
                                             // 
     cout << "len = " << len << '\n';        // len = 9	
-    cout << "arr[3] = " << arr[3] << '\n';  // arr[3] = 3           | overloaded []
+    cout << "arr[3] = " << arr[3] << '\n';  // arr[3] = 4           |    overloaded []
+    arr[3] += 3;
+    cout << "arr[3] += 3 = " << arr[3];     // arr[3] += 3 = 7
     
     for (int i = 0; i < len; i++)
         cout << "\nindex of "
