@@ -9,8 +9,8 @@ using namespace std;
 
 int main() {                                //  +------------------------------------------+
                                             //  | OUTPUT            |  EXPLANATION         |
-	const int TESTSIZE = 4;                 //  +-------------------|----------------------+
-	int test[TESTSIZE] = { 1,2,3,4 };       //                      |    normal int-array.
+    const int TESTSIZE = 4;                 //  +-------------------|----------------------+
+    int test[TESTSIZE] = { 1,2,3,4 };       //                      |    normal int-array.
                                             //                      | 
 	AppendableArray arr(test, TESTSIZE);    //                      |    create appendable arrays.
 	AppendableArray arr2(test, TESTSIZE);   //                      |     
