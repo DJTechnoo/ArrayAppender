@@ -59,6 +59,12 @@ void AppendableArray::append(AppendableArray & a) {
 
 
 
+void AppendableArray::change(int i, int t){
+	this->arr[i] = t;
+}
+
+
+
 void AppendableArray::display() {
 	std::cout << "\n\tarray[ ";
 	for (int i = 0; i < this->count; i++) {

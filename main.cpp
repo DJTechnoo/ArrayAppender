@@ -19,7 +19,8 @@ int main() {								//  +------------------------------------------+
 	arr.display();  //	----------------------- array[ 1, 2, 3, 4, 40 ]	|
 	arr.append(arr2);						//							|	Appends two appendable arrays
 	arr.display();							//	array[ 1, 2, 3, 4, 40, 1, 2, 3, 4 ]
-											//
+	arr.change(0, 1994);					//							|	change index 0 to 1994
+	arr.display();							//	array[ 1994, 2, 3 ...]
 	int len = arr.len();					//								Get length of array
 											//
 	cout << "len = " << len << '\n';		//	len = 9	
