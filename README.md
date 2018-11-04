@@ -29,10 +29,10 @@ Let's see how it works using what we have from the example above:
 ````
 We can also get the length, display the array, and access indeces of arrays:
 ````
-  int len = arr3.len();   // len = 6
-  arr3.display();         // output is: arr[ 0, 0, 3, 1, 2, 3 ]
-  arr3[0] = 10;           // array is now: [ 10, 0, 3, 1, 2, 3]
-  arr3[2] += arr3[0];     // array is now: [10, 0, 13, 1, 2, 3] 
+  int len = arr2.len();   // len = 6
+  arr2.display();         // output is: arr[ 0, 0, 3, 1, 2, 3 ]
+  arr2[0] = 10;           // array is now: [ 10, 0, 3, 1, 2, 3]
+  arr2[2] += arr2[0];     // array is now: [10, 0, 13, 1, 2, 3] 
 ````
 
 ## Installation
