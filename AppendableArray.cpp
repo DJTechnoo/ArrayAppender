@@ -83,6 +83,12 @@ int AppendableArray::index(int i) {
 
 
 
+int & AppendableArray::operator[](int i){
+    return this->arr[i];
+}
+
+
+
 int AppendableArray::len() {
 	return this->count;
 }

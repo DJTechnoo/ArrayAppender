@@ -14,5 +14,6 @@ public:
 	void change(int i, int t);
 	void display();
 	int index(int i);
+    int &operator[](int i);
 	int len();
 };
